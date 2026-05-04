@@ -31,7 +31,7 @@ class RelayControlPage extends StatefulWidget {
 class _RelayControlPageState extends State<RelayControlPage> {
   // Connection to your MacBook Air FastAPI server
   final _channel = WebSocketChannel.connect(
-    Uri.parse('ws://192.168.0.141:8000/ws/flutter_ui'),
+    Uri.parse('ws://192.168.101.6:8000/ws/flutter_ui'),
   );
 
   // We send the command to the server.

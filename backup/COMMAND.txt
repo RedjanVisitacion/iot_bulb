@@ -1,0 +1,8 @@
+- python -m venv venv
+- venv/Scripts/activate
+
+- pip install "uvicorn[standard]"
+- pip install fastapi
+- pip install websockets
+
+- uvicorn main:app --host 0.0.0.0 --port 8000
